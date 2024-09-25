@@ -1,5 +1,5 @@
 /*
-todo: set name
+todo: set the theme name
 Theme Name: My Theme
 Version: 1.0.0
 Text Domain: yourapp
@@ -9,5 +9,5 @@ Template: astra
 
 /*
 THIS FILE IS NOT ENQUEUED!!!
-Put your css into: "/assets/src/*.scss"
+Put your css into: "/assets/src/css/"
 */
