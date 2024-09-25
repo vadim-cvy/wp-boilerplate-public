@@ -22,7 +22,7 @@ class Env extends \YourApp\Utils\DesignPatterns\Singleton
   {
     if ( ! defined( 'YOURAPP_ENV' ) )
     {
-      throw new Exception( 'YOURAPP_ENV is not defined' );
+      throw new Exception( 'YOURAPP_ENV MUST be defined!' );
     }
 
     $expected_values = [ $this->ENV_PROD, $this->ENV_STG, $this->ENV_LOC ];
