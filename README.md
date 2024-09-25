@@ -33,7 +33,7 @@ You MUST NOT define constants inside your theme/plugin. Use `wp-config.php` to m
 
 ## PHP Development
 
-* Store your classes in `./inc/` (autoload is trageted on this dir).
+* Store your classes in `./inc/` (autoload is targeted on this dir).
 * Follow PSR-4 class/namespace naming standard to make autoload work. Ex:
     * `\YourApp\Foo\ClassName` class must be declared in `./inc/Foo/ClassName.php` file.
     * `\YourApp\Foo\Bar\ClassName` class must be declared in `./inc/Foo/Bar/ClassName.php` file.
