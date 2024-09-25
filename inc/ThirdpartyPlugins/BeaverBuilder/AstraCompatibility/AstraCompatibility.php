@@ -7,6 +7,7 @@ class AstraCompatibility extends \YourApp\Utils\DesignPatterns\Singleton
 {
   protected function __construct()
   {
+    Breakpoints::get_instance();
     Buttons::get_instance();
   }
 }
