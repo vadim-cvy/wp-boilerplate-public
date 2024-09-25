@@ -1,0 +1,21 @@
+.frm_forms
+{
+  fieldset
+  {
+    padding: 0;
+  }
+}
+
+button.frm_button_submit
+{
+  transition: var(--yourapp-transition);
+}
+
+.frm_form_fields
+{
+  input,
+  textarea
+  {
+    border-radius: 8px !important;
+  }
+}

@@ -1,0 +1,10 @@
+@use './vars.scss';
+
+// todo: remove this line and corresponding file if you don't use Astra theme
+@use './thridparty-fixes/astra.scss';
+// todo: remove this line and corresponding file if you don't use Beaver Builder plugin
+@use './thridparty-fixes/beaver-builder.scss';
+// todo: remove this line and corresponding file if you don't use Formidabel Forms plugin
+@use './thridparty-fixes/formidable-forms.scss';
+
+@use './typography.scss';

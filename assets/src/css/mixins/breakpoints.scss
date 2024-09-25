@@ -1,0 +1,53 @@
+@mixin large-up
+{
+  // todo: set your value here
+  @media (min-width: 1201px)
+  {
+    @content;
+  }
+}
+
+@mixin large-down
+{
+  // todo: set your value here
+  @media (max-width: 1200px)
+  {
+    @content;
+  }
+}
+
+@mixin medium-up
+{
+  // todo: set your value here
+  @media (min-width: 993px)
+  {
+    @content;
+  }
+}
+
+@mixin medium-down
+{
+  // todo: set your value here
+  @media (max-width: 992px)
+  {
+    @content;
+  }
+}
+
+@mixin small-up
+{
+  // todo: set your value here
+  @media (min-width: 769px)
+  {
+    @content;
+  }
+}
+
+@mixin small-down
+{
+  // todo: set your value here
+  @media (max-width: 768px)
+  {
+    @content;
+  }
+}

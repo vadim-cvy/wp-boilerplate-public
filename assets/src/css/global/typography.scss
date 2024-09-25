@@ -1,0 +1,23 @@
+@use '../mixins/breakpoints.scss';
+
+p,
+ul
+{
+  &:last-child
+  {
+    margin-bottom: 0;
+  }
+}
+
+h1,
+h2,
+h3
+{
+  br
+  {
+    @include breakpoints.medium-down
+    {
+      display: none;
+    }
+  }
+}

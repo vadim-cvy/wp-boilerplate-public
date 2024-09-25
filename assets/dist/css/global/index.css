@@ -1,0 +1,41 @@
+:root {
+  --yourapp-transition: .2s linear;
+}
+
+#ast-scroll-top {
+  transition: all var(--yourapp-transition);
+}
+
+.fl-icon i {
+  transition: var(--yourapp-transition);
+}
+
+a.fl-button {
+  text-decoration: unset !important;
+}
+
+.frm_forms fieldset {
+  padding: 0;
+}
+
+button.frm_button_submit {
+  transition: var(--yourapp-transition);
+}
+
+.frm_form_fields input,
+.frm_form_fields textarea {
+  border-radius: 8px !important;
+}
+
+p:last-child,
+ul:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  h1 br,
+  h2 br,
+  h3 br {
+    display: none;
+  }
+}
