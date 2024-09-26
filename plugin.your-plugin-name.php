@@ -8,6 +8,5 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-require_once __DIR__ . '/boilerplate-init.php';
-
-// todo: read "README.md >> PHP Development" before you start PHP coding
+require_once __DIR__ . '/init-boilerplate.php';
+require_once __DIR__ . '/init-custom.php';
