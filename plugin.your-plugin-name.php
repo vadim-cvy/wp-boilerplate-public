@@ -1,6 +1,6 @@
 <?php
 /*
- * todo: set the plugin name
+ * todo (step 1): set the plugin name
  * Plugin Name: My Plugin
  * Version: 1.0.0
  * Text Domain: yourapp

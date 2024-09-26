@@ -7,7 +7,10 @@
     * "YourApp"
     * "YOURAPP"
     * "yourapp"
-4. Search for "todo" and follow the instructions.
+4. Search for todos in the following order and follow the instructions:
+    * "todo (step 1)"
+    * "todo (step 2)"
+    * "todo (step 3)"
 5. Execute `composer install`.
 6. Execute `npm install`.
 7. Define constants described in "PHP Constants > Constants You MUST Define" section (bellow).

@@ -9,11 +9,11 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 YourApp\SiteSetupValidator\SiteSetupValidator::get_instance();
 
-// todo: remove this line and corresponding dir if you don't use All-in-One WP Migration
+// todo (step 1): remove this line and corresponding dir if you don't use All-in-One WP Migration
 YourApp\ThirdpartyPlugins\AI1M\AI1M::get_instance();
 
-// todo: remove this line and corresponding dir if you don't use Beaver Builder
+// todo (step 1): remove this line and corresponding dir if you don't use Beaver Builder
 YourApp\ThirdpartyPlugins\BeaverBuilder\BeaverBuilder::get_instance();
 
-// todo: remove this line and corresponding dir if you don't use Beaver Builder Themer
+// todo (step 1): remove this line and corresponding dir if you don't use Beaver Builder Themer
 YourApp\ThirdpartyPlugins\BeaverBuilderThemer\BeaverBuilderThemer::get_instance();

@@ -13,7 +13,7 @@ class SiteSetupValidator extends \YourApp\Utils\DesignPatterns\Singleton
   {
     \YourApp\SiteSetupValidator\Validators\WPDebugValidator::get_instance();
     \YourApp\SiteSetupValidator\Validators\WPSettingsValidator::get_instance();
-    // todo: remove this line and corresponding class if you don't use GridPane
+    // todo (step 1): remove this line and corresponding class if you don't use GridPane
     \YourApp\SiteSetupValidator\Validators\GridPaneValidator::get_instance();
     \YourApp\SiteSetupValidator\Validators\DependenciesValidator::get_instance();
   }
