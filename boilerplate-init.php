@@ -17,9 +17,3 @@ YourApp\ThirdpartyPlugins\BeaverBuilder\BeaverBuilder::get_instance();
 
 // todo: remove this line and corresponding dir if you don't use Beaver Builder Themer
 YourApp\ThirdpartyPlugins\BeaverBuilderThemer\BeaverBuilderThemer::get_instance();
-
-if ( ! is_admin() )
-{
-  // todo: remove astra dependency if not needed
-  \YourApp\Utils\Assets\Assets::enqueue_local_css( 'global', [ 'astra-theme-css' ] );
-}
