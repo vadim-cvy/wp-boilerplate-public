@@ -13,7 +13,7 @@ class Env extends \YourApp\Utils\DesignPatterns\Singleton
 
   private $env;
 
-  public function __construct()
+  protected function __construct()
   {
     $this->set_env();
   }
